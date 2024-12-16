@@ -29,6 +29,19 @@
 		]
 	},
 	{
+		"remarks": "🇷🇺 RU-DOMAIN",
+		"outboundTag": "direct",
+		"domain": [
+			"geosite:RU",
+			"geosite:CATEGORY-RU",
+			"geosite:CATEGORY-GOV-RU"
+		],
+		"ip": [
+			"geoip:RU",
+			"geoip:private"
+		]
+	},
+	{
 		"remarks": " Ru Range IP",
 		"outboundTag": "direct",
 		"ip": [
@@ -36,13 +49,11 @@
 		]
 	},
 	{
-		"remarks": "Private IP/Domain",
+		"remarks": "Private Domain",
 		"outboundTag": "direct",
-		"ip":[
-			"geoip:private"
-		],
 		"domain": [
 			"geosite:private"
 		]
 	}
 ]
+
